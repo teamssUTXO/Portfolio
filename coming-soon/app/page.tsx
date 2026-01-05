@@ -49,7 +49,7 @@ const LandingPage: React.FC = () => {
   // SEO: Update document title and meta description dynamically
   // Note: In Next.js, use the Metadata API. In standard React, this works effectively.
   useEffect(() => {
-    document.title = "Timothé Fardella | First Blockchain Portfolio Coming Soon";
+    document.title = "Timothé Fardella";
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
       metaDescription.setAttribute("content", "My new blockchain portfolio website is currently under construction. Coming soon.");
